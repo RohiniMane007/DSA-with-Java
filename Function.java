@@ -1,7 +1,7 @@
 
 int factorial(int n){
-  int n = 5;
-  long fact = 1;
+  // int n = 5;
+  int fact = 1;
 
   for (int i = 1; i <= n; i++) {
       fact *= i;
@@ -12,5 +12,6 @@ int factorial(int n){
 }
 
 void main(){
-  int result = 
+  int result =  factorial(5);
+  system.out.println(result);
 }
