@@ -19,7 +19,6 @@ public class Function {
         }
 
         return fact;
-    
     }
 
     static boolean isPrime(int n) {
@@ -28,8 +27,8 @@ public class Function {
             if (n % i == 0) return false;
         }
         return true;
-
     }
+  
     static List<Integer> listPrimeNo(int n) {
         List<Integer> primeNumbers = new ArrayList<>();
         for (int i = 2; i <= n; i++) {
