@@ -8,7 +8,7 @@ public class Function {
     System.out.println(result);
 
     System.out.println("No is prime"+isPrime(7));
-    System.out.println("Prime numbers up to 20: " + listPrimeNo(20));
+    System.out.println("Prime numbers up to 30: " + listPrimeNo(30));
   }
 
    static int factorial(int n){
